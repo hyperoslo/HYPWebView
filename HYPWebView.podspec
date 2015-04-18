@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "HYPWebView"
   s.summary          = "WebView++"
-  s.version          = "0.1"
+  s.version          = "0.1.0"
   s.homepage         = "https://github.com/hyperoslo/HYPWebView"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
