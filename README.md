@@ -8,7 +8,13 @@
 ## Usage
 
 ```objc
-<API>
+HYPWebView *webView = [[HYPWebView alloc] initWithFrame:self.view.frame];
+webView.webViewDelegate = self;
+
+- (void)webViewDidFinishLoading:(HYPWebView *)webView error:(NSError *)error
+{
+    // Handle finished downloading
+}
 ```
 
 ## Installation
