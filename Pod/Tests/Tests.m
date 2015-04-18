@@ -1,22 +1,18 @@
 @import UIKit;
 @import XCTest;
 
+#import "HYPWebView.h"
+
 @interface Tests : XCTestCase
 
 @end
 
 @implementation Tests
 
-- (void)testPassingExample
+- (void)testInitialization
 {
-    NSArray *array;
-    XCTAssertNil(array);
-}
-
-- (void)testFailingExample
-{
-    NSArray *array;
-    XCTAssertNotNil(array);
+    HYPWebView *webView = [HYPWebView new];
+    XCTAssertNotNil(webView);
 }
 
 @end
